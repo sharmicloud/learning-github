@@ -13,6 +13,7 @@ jobs:
       - name: Print GitHub workspace
         run: |
           echo "GITHUB_WORKSPACE is:  $GITHUB_WORKSPACE"
+          echo "github.workspace is: ${{ github.workspace }}"
 
       - name: Checkout Self Repository
         uses: actions/checkout@v4
