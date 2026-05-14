@@ -40,4 +40,4 @@ jobs:
           tree "$REPO_NAME" || ls -R "$REPO_NAME"
 
           echo "Other Github repository structure:"
-          tree aws-terraform || ls -R aws-terraform
+          tree terraform-modules || ls -R terraform-modules
